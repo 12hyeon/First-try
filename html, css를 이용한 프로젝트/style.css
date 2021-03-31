@@ -1,0 +1,79 @@
+.title-bar{
+    padding-top: 200px;
+}
+
+.label{
+    text-align: center;
+    padding-top: 20px;
+    color:red;
+}
+
+.header{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border: 1px solid black;    
+}
+.footer{
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+    bottom:0;
+}
+.footer__list{
+    display: flex;
+    justify-content: flex-end;
+}
+.subheading{
+    text-align: center;
+}
+.subcontents{
+    color: gray;
+}
+body{
+    margin: 0px;
+}
+
+.header__logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header__menu, .header__home{
+    padding-top: 3px;
+}
+
+.footer__back, .footer__save{
+    padding: 10px;
+}
+.text{
+    padding: 30px;
+}
+.static1, .static2, .static3, .static4{
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.static1{
+    border : 2px solid orange;
+    background-color: rgb(255, 239, 98);
+}
+.static2{
+    border : 2px solid lightseagreen;
+    background-color: rgb(159, 247, 213);
+}
+.static3{
+    border : 2px solid blue;
+    background-color: rgb(159, 180, 247);
+}
+.static4{
+    border : 2px solid purple;
+    background-color: rgb(221, 179, 248);
+}
+.addIcon{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
